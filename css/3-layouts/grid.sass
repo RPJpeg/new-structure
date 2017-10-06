@@ -1,0 +1,15 @@
+$border-box-sizing: true !default
+
+.grid-section
+  @include outer-container
+
+section div
+  height: 200px
+  background-color: red
+
+.box1
+  @include span-columns(8)
+  height: 200px
+
+.box2
+  @include span-columns(4)
